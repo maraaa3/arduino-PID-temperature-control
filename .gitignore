@@ -1,0 +1,43 @@
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+# Executables
+*.elf
+*.exe
+
+# Arduino specific
+*.hex
+*.bin
+build/
+dist/
+*.ino.cpp
+*.ino.elf
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Node
+node_modules/
+package-lock.json
+
+# Backup files
+*.bak
+*.tmp
